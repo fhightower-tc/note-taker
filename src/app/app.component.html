@@ -1,4 +1,14 @@
 <div class="spaces-content">
     <p-growl [value]="msgs"></p-growl>
     <router-outlet></router-outlet>
+
+    <div class="reveal" id="creditsModal" data-reveal>
+      <h1>Credits</h1>
+      <p>This app was created by <a href="https://hightower.space/" target="_blank">Floyd Hightower</a>. The source code for this app is available <a href="https://gitlab.com/fhightower-tc/note-taker" target="_blank">here</a>.</p>
+      <p>If you have any feedback, feel free to <a href="https://gitlab.com/fhightower-tc/note-taker/issues" target="_blank">raise an issue</a> or <a href="https://hightower.space/contact/" target="_blank">send Floyd feedback</a>.</p>
+      <p>If you enjoy the app, please <a href="https://saythanks.io/to/fhightower" target="_blank">say thank you</a>! It's very encouraging to know people are using this app!</p>
+    </div>
+    <footer>
+      <a data-open="creditsModal"><i>App credits</i></a>
+    </footer>
 </div>
